@@ -1,0 +1,47 @@
+*{
+
+    margin: 0 auto;
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header{
+
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #4a90e2;
+}
+
+h1{
+    text-align: center;
+    color: #dddddd;
+
+}
+h3{
+    text-align: center;
+}
+
+section{
+    margin: 0 auto;
+    padding: 5px;
+    width: 300px;
+    border-style: solid;
+
+
+}
+
+div form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+p{
+
+    text-align: center;
+}
+
+

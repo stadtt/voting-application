@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px;
+    margin: 20px;
+    font-family: "Lucida Console";
+    line-height: 1.6;
+
+}
+ header {
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+
+}
+section{
+        display: flex;
+       justify-content: space-evenly;
+        font-size: 2em;
+
+}
+ section a{
+         text-decoration: none;
+
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+
+}
+textarea {
+    height: 150px;
+}
+
+div{
+
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 5px;
+
+
+}
+
+button{
+    margin: 2px ;
+    display: inline-flex;
+}
+
+
+#up{
+    background-color: green;
+    color: white;
+    padding: 2px
+
+
+}
+#down{
+    background-color: red;
+    color: white;
+    padding: 2px;
+
+}
+
+
+.light body{
+
+    background: white;
+}
+.dark body{
+
+    background: #454545;
+}
+
+.light header{
+
+    background-color: deepskyblue;
+}
+
+.dark header {
+        background-color: #333333;
+
+}
+
+.light h1{
+    color: black;
+}
+.dark h1{
+    color: white;
+}
+
+.light section a{
+    color: darkblue;
+}
+
+.dark section a
+{
+    color: whitesmoke;
+}
+
+.dark h2, .dark h3, .dark h4 {
+    color: white;
+}
+
+.light h2, .light h3, .light h4 {
+    color: black;
+}
+
+
+.light div.topic{
+
+    background-color: darkgrey;
+}
+.light main {
+
+    background-color: aliceblue;
+}
+
+
+.dark div.topic{
+
+    background-color: gray;
+}
+.dark main {
+
+    background-color: darkgrey;
+}
